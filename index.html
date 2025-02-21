@@ -369,15 +369,14 @@ font-style: normal;
     var rollNo = document.getElementById('rollNoInput').value.trim();
     var pdfFiles = {
         '23BI110350': 'EN21232163.pdf',
-        '222': 'pdfs/file222.pdf',
-        '223': 'pdfs/file223.pdf'
+        '21BO213589': 'EN37567542.pdf',
         // Add more Roll No and PDF path pairs as needed
     };
 
     if (pdfFiles[rollNo]) {
         window.open(pdfFiles[rollNo], '_blank');
     } else {
-        alert('No PDF found for Roll No: ' + rollNo);
+        alert('Nothing found for Roll No: ' + rollNo);
     }
 }
 </script>              <!-- <div class="row">
